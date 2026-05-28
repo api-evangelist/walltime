@@ -1,0 +1,32 @@
+aid: walltime
+name: Walltime
+description: "To retrieve Walltime's market info"
+url: https://walltime.info/api.html
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Blockchain"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Blockchain
+  - Public APIs
+apis:
+  - name: Walltime
+    description: "To retrieve Walltime's market info"
+    humanURL: https://walltime.info/api.html
+    baseURL: https://walltime.info/api.html
+    tags:
+      - Blockchain
+    properties:
+      - type: Documentation
+        url: https://walltime.info/api.html
+common:
+  - type: Website
+    url: https://walltime.info/api.html
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
